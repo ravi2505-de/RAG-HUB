@@ -27,20 +27,20 @@ A lightweight RAG (Retrieval-Augmented Generation) application that allows users
 ## 🚀 How to Run Locally
 
 ### 1. Clone the Repository
-
-```bash
 git clone https://github.com/ravi2505-de/Multi-Doc-QA-RAGHub.git
 cd Multi-Doc-QA-RAGHub
-2. Install Dependencies
-pip install -r requirements.txt
-3. Set Environment Variables
+
+### 2. Install Dependencies
+pip install -r requirements.txt 
+
+### 3. Set Environment Variables
 Create a file named .env in the root folder:
 OPENAI_API_KEY=your-openai-api-key
 PINECONE_API_KEY=your-pinecone-api-key
 PINECONE_INDEX=your-index-name
 Note: .env should be excluded from Git using .gitignore.
 
-4. Run the App
+### 4. Run the App
 
 streamlit run app.py
 📂 Supported File Types
@@ -52,7 +52,7 @@ streamlit run app.py
 
 .md
 
-💡 Use Case
+### 💡 Use Case
 This tool is helpful for:
 
 Students analyzing research papers
@@ -63,6 +63,6 @@ Teams uploading meeting notes or specs
 
 Researchers comparing multiple sources
 
-✍️ Author
+### ✍️ Author
 Built by ravi mutthina
 Connect on LinkedIn
